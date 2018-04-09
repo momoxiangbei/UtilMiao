@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/NetModule/NetModule.iml" filepath="$PROJECT_DIR$/NetModule/NetModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../NetModule/NetModuleLib/NetModuleLib.iml" filepath="$PROJECT_DIR$/../NetModule/NetModuleLib/NetModuleLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/UtilMiao.iml" filepath="$PROJECT_DIR$/UtilMiao.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>

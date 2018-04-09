@@ -1,1 +1,6 @@
 include ':app'
+
+if (ImportNetModule.toBoolean()) {
+    include ":NetModule:NetModuleLib"
+    project(':NetModule:NetModuleLib').projectDir = new File("../NetModule/NetModuleLib")
+}
