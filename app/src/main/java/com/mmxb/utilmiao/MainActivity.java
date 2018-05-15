@@ -2,24 +2,69 @@ package com.mmxb.utilmiao;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
+import com.bumptech.glide.request.RequestOptions;
+import com.mmxb.utilmiao.lifecycle.LifecycleObserverDemo;
 
-import com.mmxb.netmodulelib.TestMomo;
+import java.util.Iterator;
+import java.util.TreeSet;
 
-import rx.subscriptions.CompositeSubscription;
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 public class MainActivity extends AppCompatActivity {
-    private TextView textView;
-    private CompositeSubscription mCompositeSubscription;
+    @BindView(R.id.weather_tv)
+    TextView weatherTv;
+    @BindView(R.id.image_view)
+    ImageView imageView;
 
-    TestMomo testMomo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        textView = findViewById(R.id.weather_tv);
+        ButterKnife.bind(this);
 
+        getLifecycle().addObserver(new LifecycleObserverDemo());
+
+        TreeSet<String> hashSet = new TreeSet<>();
+
+        Iterator<String> iterator = hashSet.iterator();
+        while (iterator.hasNext()) {
+            iterator.next();
+        }
+
+        for (String a : hashSet) {
+
+        }
+    }
+
+
+    @OnClick(R.id.weather_tv)
+    public void onViewClicked() {
+        String url = "http://cn.bing.com/az/hprichbg/rb/Dongdaemun_ZH-CN10736487148_1920x1080.jpg";
+
+        RequestOptions options = new RequestOptions()
+                .placeholder(R.drawable.header)
+                .fitCenter()
+                .diskCacheStrategy(DiskCacheStrategy.NONE);
+
+        Glide.with(this).load(url).apply(options).into(imageView);
+
+//        GlideApp.with(this)
+//                .load(new MyGlideUrl(url))
+//                .placeholder(R.drawable.header)
+//                .into(imageView);
+    }
+
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
     }
 }
