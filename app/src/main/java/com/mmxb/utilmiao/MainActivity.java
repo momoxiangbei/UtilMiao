@@ -56,10 +56,6 @@ public class MainActivity extends AppCompatActivity {
 
         Glide.with(this).load(url).apply(options).into(imageView);
 
-//        GlideApp.with(this)
-//                .load(new MyGlideUrl(url))
-//                .placeholder(R.drawable.header)
-//                .into(imageView);
     }
 
 
