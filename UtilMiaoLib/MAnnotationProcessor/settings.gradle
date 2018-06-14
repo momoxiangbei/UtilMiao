@@ -1,1 +1,1 @@
-include ':app', ':MAnnoProcessor', ':MAnnotation', ':MPlugin'
+include ':app', ':MAnnoProcessor', ':MAnnotation', ':MPlugin', ':testmodule'

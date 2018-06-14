@@ -32,7 +32,6 @@ public class MProcessor extends AbstractProcessor {
     private Filer mFiler;
     private String mModuleName;
 
-
     @Override
     public synchronized void init(ProcessingEnvironment processingEnv) {
         super.init(processingEnv);
@@ -59,25 +58,24 @@ public class MProcessor extends AbstractProcessor {
     @Override
     public boolean process(Set<? extends TypeElement> set, RoundEnvironment roundEnv) {
 
+        String name = null;
         // 获取注解
         for (Element element : roundEnv.getElementsAnnotatedWith(MAnnotation.class)) {
-            int value = element.getAnnotation(MAnnotation.class).value();
+            name = element.getAnnotation(MAnnotation.class).name();
         }
 
         // 生成类
         // package com.momo;
-        //
-        // public final class ClassName_Anno {
-        //      public static int getAge(int age) {
-        //           return ++age;
+        // public final class Anno_ModuleName {
+        //      public static void getAge(int age) {
+        //           System.out.println("Hello value");
         //      }
         // }
 
-        MethodSpec main = MethodSpec.methodBuilder("getAge")
+        MethodSpec main = MethodSpec.methodBuilder("sayHay")
                 .addModifiers(Modifier.PUBLIC, Modifier.STATIC)
-                .returns(String.class)
-                .addParameter(Integer.class, "age")
-                .addStatement("$T.out.println($S)", System.class, "Hello, JavaPoet!")
+                .addParameter(Integer.class, "name")
+                .addStatement("$T.out.println($S)", System.class, "hay " + name)
                 .build();
 
         TypeSpec helloWorld = TypeSpec.classBuilder("Anno" + "_" + mModuleName)

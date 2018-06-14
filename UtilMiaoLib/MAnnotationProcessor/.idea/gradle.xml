@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$/MAnnotation" />
             <option value="$PROJECT_DIR$/MPlugin" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/testmodule" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

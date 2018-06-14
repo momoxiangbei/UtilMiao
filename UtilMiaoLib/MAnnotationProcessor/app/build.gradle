@@ -17,8 +17,6 @@ android {
                 arguments = [momomoduleName: project.getName()]
             }
         }
-
-
     }
     buildTypes {
         release {
@@ -32,5 +30,9 @@ dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support:appcompat-v7:27.1.1'
     implementation 'com.android.support.constraint:constraint-layout:1.1.1'
+
+    implementation project(':MAnnotation')
     annotationProcessor project(':MAnnoProcessor')
+
+    implementation project(':testmodule')
 }
