@@ -9,6 +9,7 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.request.RequestOptions;
 import com.mmxb.utilmiao.lifecycle.LifecycleObserverDemo;
+import com.mmxb.utilmiao.utils.ScreenDensityUtil;
 
 import java.util.Iterator;
 import java.util.TreeSet;
@@ -22,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        ScreenDensityUtil.setActivityCustomDensity(this, 380);
         setContentView(R.layout.activity_main);
-
     }
 }
