@@ -6,9 +6,14 @@
 
     <TextView
         android:id="@+id/weather_tv"
-        android:layout_width="480dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorAccent"
         android:text="天气天气天气天气天气天气天气天气天气天气天气天气天气天气天气天气" />
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
 
 </LinearLayout>
