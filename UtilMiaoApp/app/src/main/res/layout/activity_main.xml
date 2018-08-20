@@ -5,15 +5,11 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/weather_tv"
+        android:id="@+id/home_tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorAccent"
-        android:text="天气天气天气天气天气天气天气天气天气天气天气天气天气天气天气天气" />
-
-    <ImageView
-        android:id="@+id/image_view"
-        android:layout_width="50dp"
-        android:layout_height="50dp" />
-
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="Home"
+        android:background="#f4f4f4"/>
 </LinearLayout>
