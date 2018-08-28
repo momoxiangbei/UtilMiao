@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 //apply plugin: 'com.jakewharton.butterknife'
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion 28
     defaultConfig {
         applicationId "com.mmxb.utilmiao"
         minSdkVersion 15

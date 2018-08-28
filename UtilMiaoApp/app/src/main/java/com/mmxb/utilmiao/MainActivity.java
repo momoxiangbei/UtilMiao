@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.mmxb.utilmiao.mvvm.MvvmSimpleActivity;
 import com.mmxb.utilmiao.view.flowlayout.FlowLayout;
 
 public class MainActivity extends AppCompatActivity {
@@ -27,5 +28,9 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
+        findViewById(R.id.mvvm_tv).setOnClickListener(v -> {
+            Intent intent = new Intent(context, MvvmSimpleActivity.class);
+            startActivity(intent);
+        });
     }
 }
