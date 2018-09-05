@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.mmxb.utilmiao">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -20,6 +20,15 @@
         </activity>
         <activity android:name=".HomeActivity" />
         <activity android:name=".mvvm.MvvmSimpleActivity" />
+
+        <receiver
+            android:name=".notification.NotificationReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="NotificationReceiver" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>
