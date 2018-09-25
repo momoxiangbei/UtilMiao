@@ -1,260 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="482a9fac-ec8c-44b6-bdf9-be5f4ae15efe" name="Default" comment="MOD：目录整理">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/UtilMiaoApp/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/proguard-rules.pro" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/mmxb/utilmiao/ExampleInstrumentedTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/mmxb/utilmiao/GlobalGlideConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/mmxb/utilmiao/HomeActivity.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/mmxb/utilmiao/MainActivity.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/mmxb/utilmiao/config/AppConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/mmxb/utilmiao/data/TestData.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/mmxb/utilmiao/data/User.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/mmxb/utilmiao/data/enums/EatType.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/mmxb/utilmiao/lifecycle/ActivityFragmentLifecycle.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/mmxb/utilmiao/lifecycle/LifecycleObserverDemo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/mmxb/utilmiao/mvvm/MvvmSimpleActivity.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/mmxb/utilmiao/mvvm/module/ProductEntity.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/mmxb/utilmiao/mvvm/viewmodule/ProductViewModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/mmxb/utilmiao/notification/NotificationReceiver.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/mmxb/utilmiao/utils/AppStatusUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/mmxb/utilmiao/utils/BadgeUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/mmxb/utilmiao/utils/Base64.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/mmxb/utilmiao/utils/ImageUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/mmxb/utilmiao/utils/ListUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/mmxb/utilmiao/utils/NotificationUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/mmxb/utilmiao/utils/ScreenDensityUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/mmxb/utilmiao/view/flowlayout/FlowLayout.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/circle.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/error.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/header.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_bottom_arrow.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_mvvm_sample.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_layout.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/test/java/com/mmxb/utilmiao/ExampleUnitTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gradle.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gradlew" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gradlew.bat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/settings.gradle" />
+    <list default="true" id="482a9fac-ec8c-44b6-bdf9-be5f4ae15efe" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.MD" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/.idea/caches/build_file_checksums.ser" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/.idea/gradle.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/.idea/runConfigurations.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/build.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/proguard-rules.pro" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/androidTest/java/com/mmxb/utilmiao/ExampleInstrumentedTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/AndroidManifest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/java/com/mmxb/utilmiao/GlobalGlideConfig.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/java/com/mmxb/utilmiao/HomeActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/java/com/mmxb/utilmiao/MainActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/java/com/mmxb/utilmiao/config/AppConfig.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/java/com/mmxb/utilmiao/data/TestData.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/java/com/mmxb/utilmiao/data/User.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/java/com/mmxb/utilmiao/data/enums/EatType.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/java/com/mmxb/utilmiao/lifecycle/ActivityFragmentLifecycle.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/java/com/mmxb/utilmiao/lifecycle/LifecycleObserverDemo.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/java/com/mmxb/utilmiao/mvvm/MvvmSimpleActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/java/com/mmxb/utilmiao/mvvm/module/ProductEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/java/com/mmxb/utilmiao/mvvm/viewmodule/ProductViewModel.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/java/com/mmxb/utilmiao/notification/NotificationReceiver.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/java/com/mmxb/utilmiao/utils/AppStatusUtil.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/java/com/mmxb/utilmiao/utils/BadgeUtil.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/java/com/mmxb/utilmiao/utils/ImageUtil.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/java/com/mmxb/utilmiao/utils/ListUtil.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/java/com/mmxb/utilmiao/utils/NotificationUtil.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/java/com/mmxb/utilmiao/utils/ScreenDensityUtil.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/java/com/mmxb/utilmiao/view/flowlayout/FlowLayout.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/res/drawable-xxhdpi/circle.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/res/drawable-xxhdpi/error.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/res/drawable-xxhdpi/header.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/res/drawable/ic_launcher_background.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/res/layout/activity_home.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/res/layout/activity_main.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/res/layout/activity_mvvm_sample.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/res/layout/item_layout.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/res/values/attrs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/res/values/colors.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/res/values/strings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/main/res/values/styles.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/app/src/test/java/com/mmxb/utilmiao/ExampleUnitTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/build.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/gradle.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/gradlew" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/gradlew.bat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoApp/settings.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/.idea/UtilMiaoLib.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/.idea/codeStyles/Project.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/.idea/caches/build_file_checksums.ser" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/.idea/codeStyles/Project.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/.idea/gradle.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/.idea/runConfigurations.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/animationlib/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/animationlib/build.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/animationlib/proguard-rules.pro" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/animationlib/src/androidTest/java/com/mmxb/animationlib/ExampleInstrumentedTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/animationlib/src/main/AndroidManifest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/animationlib/src/main/java/com/mmxb/animationlib/elm/ElmHomeActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/animationlib/src/main/java/com/mmxb/animationlib/util/ActivityAnimUtil.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/animationlib/src/main/res/layout/activity_elm_home.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/animationlib/src/main/res/values/strings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/animationlib/src/test/java/com/mmxb/animationlib/ExampleUnitTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/app/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/app/build.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/app/proguard-rules.pro" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/app/src/androidTest/java/com/mmxb/manimation/ExampleInstrumentedTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/app/src/main/AndroidManifest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/app/src/main/java/com/mmxb/manimation/MainActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/app/src/main/java/com/mmxb/manimation/SecondActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/app/src/main/res/anim/anim_activity_non.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/app/src/main/res/drawable/ic_launcher_background.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/app/src/main/res/layout/activity_main.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/app/src/main/res/layout/activity_second.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/app/src/main/res/values/colors.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/app/src/main/res/values/strings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/app/src/main/res/values/styles.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/app/src/test/java/com/mmxb/manimation/ExampleUnitTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/build.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/gradle.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/gradlew" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/gradlew.bat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnimation/settings.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/.idea/caches/build_file_checksums.ser" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/.idea/codeStyles/Project.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/.idea/gradle.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/.idea/runConfigurations.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/MAnnoProcessor/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/MAnnoProcessor/build.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/MAnnoProcessor/src/main/java/com/mmxb/mannoprocessor/MProcessor.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/MAnnotation/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/MAnnotation/build.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/MAnnotation/src/main/java/com/mmxb/mannolib/MAnnotation.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/MPlugin/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/MPlugin/build.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/MPlugin/src/main/groovy/com/momo/plugin/AnnoPlugin.groovy" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/MPlugin/src/main/resources/META-INF/gradle-plugins/com.momo.plugin.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/app/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/app/build.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/app/proguard-rules.pro" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/app/src/main/AndroidManifest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/app/src/main/java/com/mmxb/mannotationprocessor/MainActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/app/src/main/java/com/mmxb/mannotationprocessor/test/SecondActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/app/src/main/res/drawable/ic_launcher_background.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/app/src/main/res/layout/activity_main.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/app/src/main/res/values/colors.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/app/src/main/res/values/strings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/app/src/main/res/values/styles.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/build.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/gradle.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/gradlew" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/gradlew.bat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/repositories/com/momo/plugin/MPlugin/0.0.1/MPlugin-0.0.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/repositories/com/momo/plugin/MPlugin/0.0.1/MPlugin-0.0.1.jar.md5" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/repositories/com/momo/plugin/MPlugin/0.0.1/MPlugin-0.0.1.jar.sha1" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/repositories/com/momo/plugin/MPlugin/0.0.1/MPlugin-0.0.1.pom" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/repositories/com/momo/plugin/MPlugin/0.0.1/MPlugin-0.0.1.pom.md5" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/repositories/com/momo/plugin/MPlugin/0.0.1/MPlugin-0.0.1.pom.sha1" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/repositories/com/momo/plugin/MPlugin/maven-metadata.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/repositories/com/momo/plugin/MPlugin/maven-metadata.xml.md5" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/repositories/com/momo/plugin/MPlugin/maven-metadata.xml.sha1" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/settings.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/testmodule/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/testmodule/build.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/testmodule/proguard-rules.pro" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/testmodule/src/main/AndroidManifest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/testmodule/src/main/java/com/mmxb/testmodule/TestActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/UtilMiaoLib/MAnnotationProcessor/testmodule/src/main/res/values/strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mmxb/utilmiao/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/mmxb/utilmiao/MainActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mmxb/utilmiao/notification/NotificationReceiver.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/mmxb/utilmiao/notification/NotificationReceiver.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mmxb/utilmiao/utils/NotificationUtil.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/mmxb/utilmiao/utils/NotificationUtil.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" afterPath="$PROJECT_DIR$/gradlew.bat" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -274,6 +32,94 @@
         <projects_view />
       </state>
     </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="HomeActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mmxb/utilmiao/HomeActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_home.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mmxb/utilmiao/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="29" column="47" lean-forward="false" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NotificationUtil.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mmxb/utilmiao/utils/NotificationUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NotificationReceiver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mmxb/utilmiao/notification/NotificationReceiver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>NotificationReceiver</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -2307,6 +2153,16 @@
       </map>
     </option>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mmxb/utilmiao/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mmxb/utilmiao/utils/NotificationUtil.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mmxb/utilmiao/notification/NotificationReceiver.java" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="11" />
     <option name="y" value="23" />
@@ -2339,6 +2195,81 @@
               <item name="UtilMiao" type="b2602c69:ProjectViewProjectNode" />
               <item name="UtilMiao" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="UtilMiao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UtilMiao" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UtilMiao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UtilMiao" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UtilMiao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UtilMiao" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UtilMiao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UtilMiao" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UtilMiao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UtilMiao" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mmxb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UtilMiao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UtilMiao" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mmxb" type="462c0819:PsiDirectoryNode" />
+              <item name="utilmiao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UtilMiao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UtilMiao" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mmxb" type="462c0819:PsiDirectoryNode" />
+              <item name="utilmiao" type="462c0819:PsiDirectoryNode" />
+              <item name="notification" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UtilMiao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UtilMiao" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mmxb" type="462c0819:PsiDirectoryNode" />
+              <item name="utilmiao" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -2534,40 +2465,50 @@
       <option name="presentableId" value="Default" />
       <updated>1537860426075</updated>
     </task>
+    <task id="LOCAL-00001" summary="MOD：目录整理">
+      <created>1537860794896</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1537860794896</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="11" y="23" width="1412" height="819" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32952926" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963504" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle View" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952926" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07275321" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21532847" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gradle View" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -2581,5 +2522,72 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mmxb/utilmiao/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="29" column="47" lean-forward="false" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mmxb/utilmiao/HomeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mmxb/utilmiao/notification/NotificationReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mmxb/utilmiao/utils/NotificationUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

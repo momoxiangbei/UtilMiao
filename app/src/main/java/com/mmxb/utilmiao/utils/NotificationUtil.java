@@ -32,15 +32,15 @@ public class NotificationUtil {
             channel.enableLights(true);  //闪光
             channel.setLightColor(Color.RED);  //指定闪光是的灯光颜色
             channel.setShowBadge(true);    //桌面launcher消息角标
-            channel.setBypassDnd(true);   //设置可以绕过，请勿打扰模式
-            channel.setLockscreenVisibility(Notification.VISIBILITY_SECRET);//锁屏显示通知
+            channel.setBypassDnd(true);    //设置可以绕过，请勿打扰模式
+            channel.setLockscreenVisibility(Notification.VISIBILITY_SECRET);  //锁屏显示通知
             if (notificationManager != null) {
                 notificationManager.createNotificationChannel(channel);
             }
         }
 
         Intent resultIntent = new Intent("NotificationReceiver");
-        resultIntent.putExtra("NotificationExtra", "hahaha");
+        resultIntent.putExtra("NotificationExtra", customContent);
         notifyId++;
         PendingIntent resultPendingIntent = PendingIntent.getBroadcast(
                 context,
@@ -66,7 +66,6 @@ public class NotificationUtil {
         if (notificationManager != null) {
             notificationManager.notify(notifyId, mBuilder.build());
         }
-
     }
 
 }

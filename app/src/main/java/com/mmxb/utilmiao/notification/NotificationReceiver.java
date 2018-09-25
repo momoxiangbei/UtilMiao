@@ -12,6 +12,8 @@ import android.widget.Toast;
 public class NotificationReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
-        Log.d("momotest", "onReceive: ");
+        if (intent.getExtras() != null) {
+            Toast.makeText(context, "notify click ：" + intent.getStringExtra("NotificationExtra"), Toast.LENGTH_LONG).show();
+        }
     }
 }
