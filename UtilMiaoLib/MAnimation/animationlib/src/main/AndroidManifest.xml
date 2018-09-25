@@ -1,7 +1,0 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mmxb.animationlib">
-
-    <application android:theme="@android:style/Theme.Light.NoTitleBar">
-        <activity android:name=".elm.ElmHomeActivity" />
-    </application>
-</manifest>
