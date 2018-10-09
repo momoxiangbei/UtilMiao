@@ -4,6 +4,22 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <TextView
+        android:id="@+id/result_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+
+    <TextView
+        android:id="@+id/test_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="#f4f4f4"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="test" />
 
     <TextView
         android:id="@+id/notify_tv"
@@ -14,6 +30,17 @@
         android:gravity="center_horizontal"
         android:padding="10dp"
         android:text="通知" />
+
+
+    <TextView
+        android:id="@+id/aidl_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="#f4f4f4"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="aidl" />
 
     <TextView
         android:id="@+id/home_tv"
@@ -36,4 +63,6 @@
         android:padding="10dp"
         android:text="mvvm"
         android:visibility="gone" />
+
+
 </LinearLayout>

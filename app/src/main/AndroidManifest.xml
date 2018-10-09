@@ -29,6 +29,11 @@
                 <action android:name="NotificationReceiver" />
             </intent-filter>
         </receiver>
+        <service
+            android:name=".aidl.MyAidlService"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":aidl" />
     </application>
 
 </manifest>
